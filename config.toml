@@ -1,0 +1,14 @@
+Addr = "192.168.199.228:8080"
+Exclude = [".log"]
+Log = ""
+
+[Watchs]
+
+    [Watchs.test1]
+    Path = "E:/GoProject/src/goSync/test/"
+    Exclude = ["11223"]
+
+
+[Client]
+    Watch = "test1"
+    Path  = "E:\\GoProject\\src\\goSync\\test2"
